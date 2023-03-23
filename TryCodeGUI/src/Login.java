@@ -33,7 +33,7 @@ public class Login extends JFrame {
 	 */
 
 	
-	public void login() throws IOException{
+	public void login() throws IOException{ //Login Method & validation
 		
 		String file = "src/data/Admin.txt";
 		
@@ -118,7 +118,7 @@ public class Login extends JFrame {
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
-					login();
+					login(); //Calling login method
 				} catch (IOException ex) {
 					ex.printStackTrace();
 				}
