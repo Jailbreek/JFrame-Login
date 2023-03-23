@@ -35,9 +35,9 @@ public class Register extends JFrame {
 	 */
 
 	
-	public void regist() throws IOException{
+	public void regist() throws IOException{ //Register method
 		
-		String file = "src/data/Admin.txt";
+	String file = "src/data/Admin.txt";
 		
         String user, pass;
         BufferedWriter bw = new BufferedWriter(new FileWriter(file,true));
@@ -129,7 +129,7 @@ public class Register extends JFrame {
 		btnRegister.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
-					regist();
+					regist(); //Calling Register method
 				} catch (IOException ex) {
 					ex.printStackTrace();
 				}
