@@ -1,2 +1,3 @@
 # JFrame-Login
-JFrame Login with file.txt as the database
+Using Eclipse
+JFrame Login with Hashed Password & file.txt as the database
