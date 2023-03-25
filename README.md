@@ -1,2 +1,2 @@
 # JFrame-Login
-JFrame Login with file.txt as the database
+JFrame Login wihout Hashed Password & file.txt as the database
